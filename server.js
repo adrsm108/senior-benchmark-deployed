@@ -1,4 +1,4 @@
-#!/usr/bin/env/node
+#!/usr/bin/env node
 const mapValues = (obj, f) =>
   Object.fromEntries(Object.entries(obj).map(([key, val]) => [key, f(val)]));
 
