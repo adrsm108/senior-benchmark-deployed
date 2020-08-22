@@ -1,0 +1,14 @@
+{
+  "name": "senior-benchmark",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-to-https": "^1.1.4",
+    "mariadb": "^2.4.2"
+  },
+  "scripts": {
+    "reset-database": "node resetDatabase.js",
+    "backup-database": "node backupDatabase.js"
+  }
+}
