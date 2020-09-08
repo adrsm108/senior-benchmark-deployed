@@ -5,7 +5,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-http-to-https": "^1.1.4",
-    "mariadb": "^2.4.2"
+    "express-mysql-session": "^2.1.4",
+    "bcrypt": "^5.0.0",
+    "mysql": "^2.18.1"
   },
   "scripts": {
     "reset-database": "node resetDatabase.js",
